@@ -6,7 +6,7 @@ Candor compatible.
 To install this mod manually, extract and copy the .pak file into your \Documents\Larian Studios\Baldur's Gate 3\Mods folder, then update your desired profile's modsettings.lsx file, using notepad or something similar, by adding the following node:
 
 <node id="ModuleShortDesc">
-    ﻿<attribute id="Folder" type="LSWString" value="PlayableGoblin"/>
+    <attribute id="Folder" type="LSWString" value="PlayableGoblin"/>
     <attribute id="MD5" type="LSString" value=""/>
     <attribute id="Name" type="FixedString" value="PlayableGoblin"/>
     <attribute id="UUID" type="FixedString" value="d551044c-30ed-43c8-a615-453b2a099808"/>

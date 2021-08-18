@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="Races">
+        <node id="root">
+            <children>
+				<!-- Allows goblins to have "sub-races"; goblins have pre-set clothing sets -->
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Goblin"/>
+                    <attribute id="DisplayName" type="FixedString" value="Goblin"/>
+                    <attribute id="Name" type="FixedString" value="Goblin"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Caster"/>
+                    <attribute id="DisplayName" type="FixedString" value="Caster"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Caster"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="5a042e7b-b453-43b5-9f94-f9a9f84960c9"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Ranger 2"/>
+                    <attribute id="DisplayName" type="FixedString" value="Ranger 2"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Ranger_2"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="bc5bc97d-e9c6-4f35-b3e4-69c78410c139"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Ranger"/>
+                    <attribute id="DisplayName" type="FixedString" value="Ranger"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Ranger"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="27e3f70c-db13-43e3-9008-b70244a1392c"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Guard"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="a15d9439-ab09-4aa3-b1cc-d6ffe6e19b1f"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Melee"/>
+                    <attribute id="DisplayName" type="FixedString" value="Melee"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Melee"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="1f395bfc-0482-41df-bfae-5bf7083baf33"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Civilian"/>
+                    <attribute id="DisplayName" type="FixedString" value="Civilian"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Civilian"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="5969d111-df87-43e9-8f64-b33f01436195"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard (Melee)"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard (Melee)"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Guard_Melee"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="0ff68221-7321-43db-b2d3-a6c67476924e"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard (Caster)"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard (Caster)"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Guard_Caster"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="e81b85ab-dc3d-4102-97d0-12d90ad53c16"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard (Ranger 2)"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard (Ranger 2)"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Guard_Ranger_2"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="346df0a3-0dd8-43d6-bca3-1cbe445f67b7"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard (Melee 2)"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard (Melee 2)"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Melee_2"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="12f7b2ab-4916-4491-a1f9-a217733dbf17"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Guard (Ranger)"/>
+                    <attribute id="DisplayName" type="FixedString" value="Guard (Ranger)"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Ranger_2"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="a2f1bd48-75a5-4c71-a3e8-2a017e783193"/>
+                    <children/>
+                </node>
+				<node id="Race">
+                    <attribute id="Description" type="FixedString" value="Melee 2"/>
+                    <attribute id="DisplayName" type="FixedString" value="Melee 2"/>
+                    <attribute id="Name" type="FixedString" value="Goblin_Melee_2"/>
+                    <attribute id="ParentGuid" type="guid" value="54fb4eb9-2cb9-4925-a94f-c16d15e20999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Goblin"/>
+                    <attribute id="UUID" type="guid" value="402923fe-1c47-4cea-b2ec-0aee4710ec29"/>
+                    <children/>
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,8 @@
+{
+  "name": "Playable_Goblins",
+  "version_number": "0.2.0",
+  "website_url": "https://github.com/ShinyHobo/PlayableGoblin",
+  "description": "Allows you to play as a goblinoid.",
+  "dependencies": [
+  ]
+}
